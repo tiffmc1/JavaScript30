@@ -73,7 +73,7 @@
 				this.classList.remove("playing");
 			}
 
-			// selecting each individual key in the list and calling removeTransition() to stop that transition/styling event after a key has been pressed
+			// selecting each individual key in the list and calling removeTransition() to stop that transition/styling event after skey has been pressed
 			const keys = document.querySelectorAll(".key");
 			keys.forEach((key) =>
 				key.addEventListener("transitionend", removeTransition)
